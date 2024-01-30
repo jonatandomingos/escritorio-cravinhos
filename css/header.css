@@ -1,0 +1,39 @@
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 100%;
+    background-color: #F2F2F2;
+    position: fixed;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+}
+
+header li{
+    display: flex;
+    gap: 20px;
+}
+header a{
+    text-decoration: none;
+    gap: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #272425;
+    font-weight: 400;
+}
+
+.compartilhar{
+    display: flex;
+    gap: 10px;
+}
+.compartilhar span{
+    font-size: 18px;
+    color: #272425;
+    font-weight: 400;
+}

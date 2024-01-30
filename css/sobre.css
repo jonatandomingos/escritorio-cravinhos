@@ -1,0 +1,57 @@
+
+
+.sobre{
+    margin: 50px 0px;
+    padding: 10px;
+}
+
+.title-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-sobre h2{
+    font-size: 35px;
+    padding-bottom: 60px;
+    color: #272425;
+}
+
+.container-sobre{
+    display: flex;
+    gap: 20px;
+}
+
+.info-sobre{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-sobre h4,
+.info-atendimento h4{
+    font-size: 25px;
+    color: #615c5c;
+}
+.info-sobre p{
+    width: 350px;
+    font-size: 16px;
+    color: #272425;
+}
+.img-sobre{
+    display: flex;
+}
+.img-sobre img{
+    width: 700px;
+    height: 400px;
+    overflow-y: hidden;
+}
+
+.atendimento{
+    display: flex;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,35 @@
+
+
+.atendimento{
+    display: flex;
+    gap: 20px;
+}
+
+.img-atendimento{
+    display: flex;
+}
+.img-atendimento img{
+    width: 700px;
+    height: 400px;
+}
+
+.info-atendimento{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.info-atendimento p{
+    width: 380px;
+    font-size: 16px;
+    color: #272425;
+}
+
+.juridica {
+    display: flex;
+    flex-direction: row-reverse;
+}

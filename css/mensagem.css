@@ -1,0 +1,101 @@
+
+
+.mensagem{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.title-mensagem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.title-mensagem h2{
+    font-size: 40px;
+}
+
+.title-mensagem hr{
+    border: 1px solid #C2AF5F;
+    width: 120px;
+}
+
+.title-mensagem h3{
+    font-size: 20px;
+    color: #C2AF5F;
+    padding-bottom: 80px;
+
+}
+
+.formulario{
+    display: flex;
+    margin: 0px 120px;
+    gap: 20px;
+}
+.formulario textarea{
+    width: 500px;
+    height: 300px;
+    margin-bottom: 20px;
+
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inputs input{
+    width: 580px;
+    height: 60px;
+}
+
+.inputs input::placeholder,
+.info textarea::placeholder{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+
+.termos{
+    display: flex;
+    margin-left: 120px;
+    width: 70%;
+    padding-top: 40px;
+    
+}
+
+.termos input{
+    margin-top: -22px;
+    font-size: 14px;
+    display: flex;
+    height: 30px;
+    width: 30px;
+}
+
+.termos p,
+.termos a{
+    font-size: 14px;
+    color: #272425;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+
+.btn-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-msg button{
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: none;
+    color: white;
+    background-color: #C2AF5F;
+    text-transform: capitalize;
+}

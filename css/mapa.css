@@ -1,0 +1,103 @@
+
+.mapa{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.title-mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.title-mapa i{
+    font-size: 40px;
+    color: black;
+}
+.title-mapa h2{
+    font-size: 40px;
+}
+
+.sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.sub-title h4{
+    font-size: 20px;
+
+}
+
+
+.location{
+    display: flex;
+
+}
+
+.horario{
+    display: flex;
+    justify-content: center;
+}
+.title-funcionamento{
+    padding: 40px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-funcionamento h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.horario-funcionamento{
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    height: 400px;
+    width: 500px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 50px;
+    width: 500px;
+    background-color: white;
+}
+.dias{
+    display: flex;
+
+}
+.dias span{
+    color: black;
+}
+.tempo .fechado{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.hoje{
+    background-color: #868686;
+}
+.hoje span{
+    color: white;
+}
+
+.tempo h5{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+
+.semana{
+    background-color: rgba(242,242,242,0.6);
+}

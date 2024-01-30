@@ -1,0 +1,95 @@
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding: 40px 0px;
+    padding-top: 60px;
+}
+
+
+.title-footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.title-footer h3{
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+.container-info{
+    display: flex;
+    margin-left: 120px;
+    gap: 200px;
+    
+    
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.information i,
+.email i{
+    font-size: 30px;
+    color: black;
+}
+
+.information span{
+    color: black;
+}
+.tel{
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+}
+
+.tel i{
+    font-size: 30px;
+} 
+.tel span, 
+.email span{
+    font-size: 16px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+}
+
+
+.politica{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.itens{
+    display: flex;
+    gap: 20px;
+}
+
+.itens a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #615c5c;
+}
+
+.distruidor{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.distruidor .linha{
+    border: 1px solid #615c5c;
+    height: 50px;
+}
+.distruidor span{
+    color: #615c5c;
+}
+

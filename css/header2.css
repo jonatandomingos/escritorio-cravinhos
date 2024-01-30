@@ -1,0 +1,64 @@
+
+
+.header2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding-top: 40px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+}
+
+.title {
+    margin-left: 120px;
+}
+
+.title h1{
+    font-size: 25px;
+}
+.phone{
+    display: flex;
+    gap: 20px;
+}
+
+.phone a{
+    text-decoration: none;
+}
+
+
+.phone i{
+    padding: 10px;
+    background-color: #C2AF5F;
+    border-radius: 50%;
+    color: white;
+    font-size: 25px;
+}
+.phone h3{
+    color: #272425;
+    font-weight: 300;
+
+}
+
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+
+    background-color: #C2AF5F;
+    border-radius: 50px;
+}
+.msg a{
+    text-decoration: none;
+    display: flex;
+}
+.msg i{
+    font-size: 25px;
+    color: white;
+}
+.msg h3{
+    font-size: 16px;
+    color: white;
+}
