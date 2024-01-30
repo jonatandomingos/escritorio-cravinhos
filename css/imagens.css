@@ -1,9 +1,12 @@
 
 
+
+/*----- IMAGENS ------- */
 .imagens{
     display: flex;
     width: 100%;
 }
+/* IMG */
 .imagens img{
     width: 100%;
     height: 500px;

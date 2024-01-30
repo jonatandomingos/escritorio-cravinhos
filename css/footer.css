@@ -1,5 +1,7 @@
 
 
+
+/* ---- FOOTER --- */
 footer{
     display: flex;
     flex-direction: column;
@@ -8,18 +10,19 @@ footer{
     padding-top: 60px;
 }
 
-
+/* ---- TITLE-FOOTER ----- */
 .title-footer{
     display: flex;
     flex-direction: column;
     margin-left: 120px;
 }
-
+/* H3 */
 .title-footer h3{
     font-size: 30px;
     padding-bottom: 40px;
 }
 
+/* ---- CONTAINER-INFO ------ */
 .container-info{
     display: flex;
     margin-left: 120px;
@@ -27,41 +30,48 @@ footer{
     
     
 }
-
+/*  ---- INFORMATION ---- */
 .information{
     display: flex;
     flex-direction: column;
     text-align: left;
 }
+
+/* I */
 .information i,
 .email i{
     font-size: 30px;
     color: black;
 }
 
+/* SPAN */
 .information span{
     color: black;
 }
+/*  --- TEL ---- */
 .tel{
     display: flex;
     gap: 10px;
     margin-top: 100px;
 }
-
+/* I */
 .tel i{
     font-size: 30px;
 } 
+
+/* SPAN */
 .tel span, 
 .email span{
     font-size: 16px;
 }
 
+/* ------ EMAIL -----  */
 .email{
     display: flex;
     gap: 10px;
 }
 
-
+/* ------ POLITICA ----- */
 .politica{
     display: flex;
     justify-content: space-around;
@@ -69,26 +79,32 @@ footer{
     padding: 20px;
 }
 
+/* ----- ITENS ---- */
 .itens{
     display: flex;
     gap: 20px;
 }
 
+/* A */
 .itens a{
     text-decoration: none;
     font-size: 16px;
     color: #615c5c;
 }
 
+/* ----- DISTRIBUIDOR ----- */
 .distruidor{
     display: flex;
     align-items: center;
     gap: 20px;
 }
+
+/* LINHA */
 .distruidor .linha{
     border: 1px solid #615c5c;
     height: 50px;
 }
+/* SPAN */
 .distruidor span{
     color: #615c5c;
 }

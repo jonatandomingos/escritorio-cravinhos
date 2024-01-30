@@ -1,27 +1,33 @@
 
 
+/*----- SOBRE ---------*/
+
 .sobre{
     margin: 50px 0px;
     padding: 10px;
 }
 
+/*------ TITLE-SOBRE ----- */
 .title-sobre{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* H2 */
 .title-sobre h2{
     font-size: 35px;
     padding-bottom: 60px;
     color: #272425;
 }
 
+/* ---- CONTAINER-SOBRE ------ */
 .container-sobre{
     display: flex;
     gap: 20px;
 }
 
+/*----- INFO-SOBRE ---- */
 .info-sobre{
     width: 50%;
     height: 400px;
@@ -32,25 +38,32 @@
     gap: 20px;
 }
 
+/* INFO-SOBRE INFO-ATENDIMENTO */
 .info-sobre h4,
 .info-atendimento h4{
     font-size: 25px;
     color: #615c5c;
 }
+/* P */
 .info-sobre p{
     width: 350px;
     font-size: 16px;
     color: #272425;
 }
+
+/*----- IMG-SBOBRE ---*/
 .img-sobre{
     display: flex;
 }
+
+/* IMG */
 .img-sobre img{
     width: 700px;
     height: 400px;
     overflow-y: hidden;
 }
 
+/* ATENDIMENTO */
 .atendimento{
     display: flex;
     flex-direction: row-reverse;

@@ -1,22 +1,27 @@
 
 
+/* ----- SERVIÇOS ---- */
 .serviços{
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
 }
 
+/*--- TITLE-SERVIÇOS -------*/
 .title-serviços{
     display: flex;
     justify-content: center;
     padding: 40px 0px;
 }
+
+/* H2 */
 .title-serviços h2{
     font-size: 35px;
     font-weight: 800;
 }
 
 
+/* ----SERVIÇOS -----*/
 .todos-serviços{
     display: flex;
     justify-content: space-between;
@@ -27,10 +32,13 @@
     border: 1px solid #bdbdbd;
     margin-left: 120px;
 }
+
+/* SPAN */
 .todos-serviços span{
     font-size: 16px;
     color: #272425;
 }
+/* I */
 .todos-serviços i{
     color: orange;
     font-weight: 700;

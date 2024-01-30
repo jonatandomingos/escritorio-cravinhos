@@ -1,5 +1,5 @@
 
-
+/* ------ HEADER ------ */
 header{
     display: flex;
     align-items: center;
@@ -10,15 +10,18 @@ header{
     position: fixed;
 }
 
+/* NAV */
 header nav{
     display: flex;
     gap: 20px;
 }
 
+/* LI */
 header li{
     display: flex;
     gap: 20px;
 }
+/* A */
 header a{
     text-decoration: none;
     gap: 20px;
@@ -28,10 +31,12 @@ header a{
     font-weight: 400;
 }
 
+/*---- COMPARTILHAR ------ */
 .compartilhar{
     display: flex;
     gap: 10px;
 }
+/* SPAN */
 .compartilhar span{
     font-size: 18px;
     color: #272425;

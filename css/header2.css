@@ -1,5 +1,7 @@
 
 
+
+/* ------ HEADER2 ------- */
 .header2{
     display: flex;
     align-items: center;
@@ -9,24 +11,28 @@
     width: 100%;
     background-color: white;
 }
-
+/*------ TITLE ----- */
 .title {
     margin-left: 120px;
 }
 
+/* H1 */
 .title h1{
     font-size: 25px;
 }
+
+/* ----- PHONE ------- */
 .phone{
     display: flex;
     gap: 20px;
 }
 
+/* A */
 .phone a{
     text-decoration: none;
 }
 
-
+/* I */
 .phone i{
     padding: 10px;
     background-color: #C2AF5F;
@@ -34,12 +40,13 @@
     color: white;
     font-size: 25px;
 }
+/* H3 */
 .phone h3{
     color: #272425;
     font-weight: 300;
 
 }
-
+/*  ------ MSG ----- */
 .msg{
     display: flex;
     justify-content: center;
@@ -50,14 +57,20 @@
     background-color: #C2AF5F;
     border-radius: 50px;
 }
+
+/* A */
 .msg a{
     text-decoration: none;
     display: flex;
 }
+
+/* I */
 .msg i{
     font-size: 25px;
     color: white;
 }
+
+/* H3 */
 .msg h3{
     font-size: 16px;
     color: white;

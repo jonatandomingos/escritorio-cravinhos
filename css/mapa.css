@@ -1,24 +1,31 @@
 
+
+/* ----- MAPA ----- */
 .mapa{
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
 }
 
+/* ----- TILTE-MAPA ----- */
 .title-mapa{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
+/* I */
 .title-mapa i{
     font-size: 40px;
     color: black;
 }
+
+/* H2 */
 .title-mapa h2{
     font-size: 40px;
 }
 
+/* ------ SUB-TITLE ---- */
 .sub-title{
     display: flex;
     justify-content: center;
@@ -26,21 +33,26 @@
     padding-top: 80px;
     padding-bottom: 40px;
 }
+
+/* H4 */
 .sub-title h4{
     font-size: 20px;
 
 }
 
-
+/* ------ LOCATION ----- */
 .location{
     display: flex;
 
 }
 
+/* ---- HORARIO --- */
 .horario{
     display: flex;
     justify-content: center;
 }
+
+/* --- TITLE-FUNCIONAMENTO ---- */
 .title-funcionamento{
     padding: 40px 0px;
     display: flex;
@@ -48,11 +60,13 @@
     align-items: center;
 
 }
+/* H2 */
 .title-funcionamento h2{
     font-size: 40px;
     font-weight: 700;
 }
 
+/* --- HORARIO-FUNCIONAMENTO ----- */
 .horario-funcionamento{
     display: flex;
     flex-direction: column;
@@ -62,6 +76,8 @@
     width: 500px;
     
 }
+
+/* ---- COONTAINER ---- */
 .container{
     display: flex;
     justify-content: space-around;
@@ -71,26 +87,34 @@
     width: 500px;
     background-color: white;
 }
+
+/* --- DIAS ---- */
 .dias{
     display: flex;
 
 }
+/* SPAN */
 .dias span{
     color: black;
 }
+
+/*  ----- TEMPO FECHADO ------- */
 .tempo .fechado{
     color: black;
     font-size: 14px;
     font-weight: 700;
 }
 
+/*------ HOJE ------- */
 .hoje{
     background-color: #868686;
 }
+/* SPAN */
 .hoje span{
     color: white;
 }
 
+/* H5 */
 .tempo h5{
     font-size: 20px;
     color: black;
@@ -98,6 +122,7 @@
     font-weight: 300;
 }
 
+/* ---- SEMANA --- */
 .semana{
     background-color: rgba(242,242,242,0.6);
 }

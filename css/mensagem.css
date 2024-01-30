@@ -1,11 +1,13 @@
 
 
+/* ---- MENSAGEM ----- */
 .mensagem{
     display: flex;
     flex-direction: column;
     padding-bottom: 200px;
 }
 
+/* ------ TITLE-MENSAGEM ---- */
 .title-mensagem{
     display: flex;
     flex-direction: column;
@@ -13,15 +15,18 @@
     align-items: center;
     gap: 20px;
 }
+/* H2 */
 .title-mensagem h2{
     font-size: 40px;
 }
 
+/* HR */
 .title-mensagem hr{
     border: 1px solid #C2AF5F;
     width: 120px;
 }
 
+/* H3 */
 .title-mensagem h3{
     font-size: 20px;
     color: #C2AF5F;
